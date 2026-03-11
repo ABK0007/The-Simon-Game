@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/ABK0007/The-Simon-Game.github.io",
+
+  "name": "simon-game-challenge",
+  "version": "1.0.0",
+  "description": "A web-based Simon Game clone with light, sound, and memory-sequence challenges.",
+  "private": true,
+  "scripts": {
+    "build": "echo \"No build step\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
