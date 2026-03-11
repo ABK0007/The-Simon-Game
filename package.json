@@ -1,4 +1,11 @@
 {
+  "name": "simon-game-challenge",
+  "version": "1.0.0",
+  "description": "A web-based Simon Game clone with light, sound, and memory-sequence challenges.",
+  "private": true,
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
